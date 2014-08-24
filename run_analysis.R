@@ -43,5 +43,5 @@ for(g in groups){
   output <- rbind( output, c(index,colMeans(dt)) )
 }
 
-write.table(output, file='ouput.csv')
+write.table(output, file='ouput.csv',  row.name=FALSE )
 
